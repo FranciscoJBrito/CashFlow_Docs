@@ -1,0 +1,4 @@
+---
+---
+
+# Manegar listas inteligentes

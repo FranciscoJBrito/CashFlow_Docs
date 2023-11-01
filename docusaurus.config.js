@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'CashFlow Technologies',
   tagline: 'Documentacion del Software',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo-fondo-negro.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'CashFlow Technologies',
+        title: 'CashFlow Docs',
         logo: {
           alt: 'CashFlow Tech Logo',
           src: 'img/simbol-cft.png',
@@ -80,7 +80,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/FranciscoJBrito/CashFlow_Docs',
             label: 'GitHub',
             position: 'right',
           },

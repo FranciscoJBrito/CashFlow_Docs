@@ -15,12 +15,7 @@
   --ifm-color-primary-lightest: #ad3c3c;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-
-  .navbar {
-    background-color: rgb(255, 255, 255, 0.5);
-    border-bottom: 1px solid rgb(255, 255, 255, 0.1);
-    backdrop-filter: blur(20px);
-  }
+  --navbar-menu-bg-color: background-color: rgb(255, 255, 255, 0.8)
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -33,16 +28,17 @@
   --ifm-color-primary-lighter: #d83232;
   --ifm-color-primary-lightest: #dd4f4f;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --navbar-menu-bg-color: rgb(0, 0, 0, 0.4);
 
 
 .navbar {
-  background-color: rgb(0, 0, 0, 0.4);
+  background-color: --navbar-menu-bg-color;
   border-bottom: 1px solid rgb(255, 255, 255, 0.1);
   backdrop-filter: blur(20px);
 }
 
 .menu {
-  background-color: rgb(0, 0, 0, 0.4);
+  background-color: --navbar-menu-bg-color;
   border-right: 1px solid rgb(255, 255, 255, 0.1);
 }
 

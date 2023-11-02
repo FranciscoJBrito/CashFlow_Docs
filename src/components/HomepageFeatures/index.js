@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-const FeatureList = [
+/* const FeatureList = [
   {
     title: 'Easy to Use',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
@@ -33,9 +33,9 @@ const FeatureList = [
       </>
     ),
   },
-];
+]; */
 
-function Feature({Svg, title, description}) {
+/* function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -47,9 +47,9 @@ function Feature({Svg, title, description}) {
       </div>
     </div>
   );
-}
+} */
 
-export default function HomepageFeatures() {
+/* export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
@@ -57,8 +57,8 @@ export default function HomepageFeatures() {
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
-        </div>
+        </div> 
       </div>
     </section>
   );
-}
+} */

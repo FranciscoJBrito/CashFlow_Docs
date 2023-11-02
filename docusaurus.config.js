@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/logo-fondo-negro.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://cashflow-docs.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -65,6 +65,11 @@ const config = {
         defaultMode: "dark",
         disableSwitch: false,
       },
+      docs: {
+        sidebar: {
+          autoCollapseCategories: true
+        }
+      },
       navbar: {
         title: 'CashFlow Docs',
         logo: {
@@ -81,7 +86,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/FranciscoJBrito/CashFlow_Docs',
             label: 'GitHub',
